@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="new2.css">
+</head>
+
+<body>
+ 
+    <div class="row no-gutters">
+        <div class="col-md-12 no-gutters">
+            <div class="leftside">
+                <form id="form" class="form">
+                    <h1>EMPLOYEE DETAILS</h1>
+                <h2>Enter Data</h2>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="James@gmail.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contact" class="form-label">Contact</label>
+                        <input type="number" id="contact" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" id="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-12 no-gutters">
+            <div class="rightside">
+                <table class="table">
+                    <h2>Record</h2>
+                    <thead id="tableHead">
+                        <tr>
+
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Contact</th>
+                        </tr>
+
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="new2.js">
+    </script>
+</body>
+
+</html>

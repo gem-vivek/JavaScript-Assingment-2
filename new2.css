@@ -1,0 +1,45 @@
+body{
+         background-color: #e092c0;
+    
+}
+h1{
+    text-align: center;
+    
+}
+.leftside
+{
+    height: 65vh;
+    width: 100%;
+}
+
+.leftside {
+    background-color: #b1cedb;
+}
+
+.rightside {
+    background-color: #e092c0;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.mb-3 {
+    width: 50%;
+    margin: auto;
+    margin-top: auto;
+    height:60% ;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(44, 34, 34);
+    margin-top: 10px;
+    padding: auto;
+}
+#submit:hover{
+    background-color: red;
+}
+h2{
+  text-align: center;
+}
